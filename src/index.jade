@@ -1,0 +1,185 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    title Building a WebRTC App
+
+    link(rel='stylesheet', type='text/css', href='build/build.css')
+
+    style.
+      .mind {
+        background-image: url('https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTaX01kbo7AI_ZqprJEVK-KTsIhJpdwXe75W4GZUZB3cIf7MmKe')
+      }
+
+      .simplz {
+        background-image: url('http://i2.mirror.co.uk/incoming/article1557550.ece/ALTERNATES/s615/old%20advert')
+      }
+
+      .bbt {
+        background-image: url('https://mirhonda.files.wordpress.com/2012/12/big-bang-theory-cruciferous-vegetable-amplification-11.jpg')
+      }
+
+      .coviu {
+        background-image: url('https://static.coviu.com/images/marketing/hero_img.jpg')
+      }
+
+  body
+
+    article
+
+      section
+        h1 Building a production WebRTC App
+
+      section
+        h2 Cathy Lill
+        h3 @cathyblabla
+        h4 SydJS 20/4/2016
+
+      section
+        h2 What is webRTC?
+
+      section
+        h2 Real Time Communication
+
+      section
+        ul
+          li Video
+          li Audio
+          li Data
+          li Peer to peer
+          li Encrypted
+
+      section
+        h2 In your web browser
+
+      section
+        h2 Open source libraries:
+
+        ul
+          li <a href="http://rtc.io/">rtc.io</a>
+          li <a href="https://github.com/webrtc/adapter">Adapter.js</a>
+          li <a href="https://simplewebrtc.com/">Simple WebRTC</a>
+          li <a href="https://github.com/priologic/easyrtc">EasyRTC</a>
+
+      section
+        h2 Basic Tutorials and Demos
+        ul
+          li <a href="http://rtc.io/tutorials.html">rtc.io Tutorials</a>
+          li <a href="https://webrtc.github.io/">WebRTC Project</a>
+          li <a href="http://www.html5rocks.com/en/tutorials/webrtc/basics/">HTML5 Rocks Tutorial</a>
+
+      section(data-bespoke-backdrop='simplz')
+        h3 Simple!
+
+      section
+        h3 ...sort of
+
+      section
+        h2 Managing connections
+        h3 RTCPeerConnection
+
+      section
+        h2 SDP 
+        h3 Sesion Description Protocol
+        h4 usually via WebSockets
+
+      section
+        h2 ICE
+        h3 <a href="http://www.html5rocks.com/en/tutorials/webrtc/infrastructure/">Interactive Connectivity Establishment</a>
+
+      section
+        h2 STUN 
+        h3 <a href="https://en.wikipedia.org/wiki/STUN">Session Traversal Utilities for NAT</a>
+
+      section
+        h2 TURN 
+        h3 <a href="https://en.wikipedia.org/wiki/Traversal_Using_Relays_around_NAT">Traversal Using Relays around NAT</a>
+
+      section
+        h2 Open source libraries:
+        ul
+          li <a href="https://github.com/rtc-io/rtc-signaller">https://github.com/rtc-io/rtc-signaller</a>
+          li <a href="https://github.com/rtc-io/rtc-switchboard">https://github.com/rtc-io/rtc-switchboard</a>
+          li <a href="https://github.com/andyet/signalmaster">https://github.com/andyet/signalmaster</a>
+
+      section
+        h2 Paid services:
+        ul 
+          li <a href="https://tokbox.com">https://tokbox.com</a>
+          li <a href="http://xirsys.com/technology/">http://xirsys.com/technology/</a>
+          li <a href="http://temasys.com.sg/">http://temasys.com.sg</a>
+
+      section(data-bespoke-backdrop='coviu')
+        h1 Coviu
+
+      section
+        h2 <a href="https://coviu.com/">https://coviu.com/</a>
+
+      section
+        h2 Demo
+        ul
+          li Video call
+          li Chat
+          li Share documents
+          li Live interactions
+          li Shared state
+          li Screen sharing (needs a plugin)
+          li Switching cameras
+
+      section
+        h2 On the front end we used:
+        ul 
+          li <a href="https://github.com/raynos/mercury">Mercury</a>
+          li <a href="https://github.com/rtc-io">RTC.IO</a>
+          li and soon React
+
+      section
+        h2 Some challenges
+
+      section
+        h2 Representing synchronous data
+        h3 <a href="https://www.npmjs.com/package/observ-mediastream">observ-mediastream</a>
+
+      section
+        h2 Replicating data between peers
+        h3 <a href="https://github.com/dominictarr/crdt">CRDT</a>
+
+      section
+        h2 Call quality and reliability
+        h3 <a href="https://github.com/rtc-io/rtc-health">RTC Health</a>
+
+      section
+        h2 Manipulating media sources
+        h3 <a href="https://www.webrtc-experiment.com/RTCMultiConnection/getMediaDevices.html">getMediaDevices</a>
+
+      section
+        h2 Cross browser issues
+        h3 <a href="http://iswebrtcreadyyet.com/">http://iswebrtcreadyyet.com/</a>
+
+      section
+        h2 UI Flexibility and performance
+
+      section
+        h2 Coming soon
+        h3 Public API
+
+      section(data-bespoke-backdrop='bbt')
+        h2 Show me more cool WebRTC stuff!!!
+
+      section
+        ul
+          li <a href="https://togetherjs.com/">TogetherJS</a>
+          li <a href="https://www.webrtc-experiment.com/">WebRTC Experiments & Demos by Muaz Khan</a>
+          li <a href="https://github.com/streamroot/clappr-p2phls-plugin">BemTV</a>
+          li <a href="http://www.doublerobotics.com/">Double Robotics</a>
+          li <a href="https://webtorrent.io/">WebTorrent</a>
+
+      section(data-bespoke-backdrop='mind')
+        h3 Thanks for listening :)
+
+
+
+
+    script(src='build/build.js')
+
