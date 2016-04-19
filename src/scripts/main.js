@@ -1,6 +1,6 @@
 // Require Node modules in the browser thanks to Browserify: http://browserify.org
 var bespoke = require('bespoke'),
-  theme = require('./bespoke-theme-webrtc.min'),
+  theme = require('./theme-webrtc.min'),
   keys = require('bespoke-keys'),
   touch = require('bespoke-touch'),
   bullets = require('bespoke-bullets'),
